@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .section {
+    display: block;
+    margin: 15px 0;
+    max-width: 80%;
+    line-height: 1.5em;
+  }
+  
+  .section:before {
+    content: "*";
+    display: inline-block;
+    position: relative;
+    top: 3px;
+  }
+  
+  #customButtonContainer {
+    margin: 25px 0;
+  }
+  
+  .color-picker-container {
+    margin: 10px 0;
+  }
+  
+  .options-button {
+    padding: 10px 15px;
+    background-color: #6a0dad;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+  }
+  .blue {
+    background-color: #0015d4;
+  }
+  
+  .orange {
+    background-color: #fa9600;
+  }
+  
